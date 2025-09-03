@@ -1,0 +1,23 @@
+# Eclipse and STM32CubeIDE files
+.metadata
+.cproject
+.project
+.settings/
+*.log
+*.bak
+
+# Build directories and generated files
+build/
+Debug/
+Release/
+
+# User specific files
+.toolchain-version
+
+# Other common files to ignore
+*.hex
+*.bin
+*.elf
+*.map
+*.o
+*.d

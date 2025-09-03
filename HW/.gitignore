@@ -1,0 +1,15 @@
+# Altium Designer project files to ignore
+__Previews/
+History/
+Project Outputs for */
+
+# Altium Designer temporary files
+*.PrjPcb.tmp
+*.SchDoc.tmp
+*.PcbDoc.tmp
+*.PrjPcb.DsnSrc
+*.OutJob.tmp
+*.PcbDoc.bak
+*.*~
+*.log
+*.zip
