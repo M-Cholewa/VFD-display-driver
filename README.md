@@ -5,6 +5,9 @@ The PCB was manufactured by **JLCPCB**, and the driver allows the display to be 
 
 ---
 
+**Display – All Segments Enabled**  
+![ALL_ENABLED](./IMGs/ALL_ENABLED.jpg)
+
 ## Features
 
 - Support for the **HLD336WA VFD display**
@@ -71,9 +74,6 @@ All connectors are ESD protected.
 
 **PCB – Back**  
 ![BACK](./IMGs/BACK.jpg)
-
-**Display – All Segments Enabled**  
-![ALL_ENABLED](./IMGs/ALL_ENABLED.jpg)
 
 **Display – With Dark Foil**  
 ![WITH_DARK_FOIL](./IMGs/WITH_DARK_FOIL.jpg)
