@@ -1,6 +1,6 @@
-# VFD Display Driver – HLD336WA
+# VFD Display Driver – HL-D336WA
 
-This project provides both hardware (PCB) and firmware (FreeRTOS-based) for driving a **cheap HLD336WA VFD display** (around $3 from China).  
+This project provides both hardware (PCB) and firmware (FreeRTOS-based) for driving a **cheap HL-D336WA VFD display** (around $3 from China).  
 The PCB was manufactured by **JLCPCB**, and the driver allows the display to be controlled through **SPI**.
 
 ---
@@ -10,7 +10,7 @@ The PCB was manufactured by **JLCPCB**, and the driver allows the display to be 
 
 ## Features
 
-- Support for the **HLD336WA VFD display**
+- Support for the **HL-D336WA VFD display**
 - **FreeRTOS firmware** for efficient task handling
 - **SPI interface** for control
 - Example script for **Raspberry Pi** included ([`/RPI_SCRIPT`](./RPI_SCRIPT))
