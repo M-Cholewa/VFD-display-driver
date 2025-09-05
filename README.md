@@ -60,13 +60,28 @@ All connectors are ESD protected.
 
 ## Screenshots & Diagrams
 
-![BOARD_SCHEMATIC_MAIN](./IMGs/BOARD_SCHEMATIC_MAIN.png) 
-![BOARD_SCHEMATIC_ULN2003_VFD](./IMGs/BOARD_SCHEMATIC_ULN2003_VFD.png)  
-![NO_DISPLAY_FRONT](./IMGs/NO_DISPLAY_FRONT.jpg) 
-![BACK](./IMGs/BACK.jpg) 
-![ALL_ENABLED](./IMGs/ALL_ENABLED.jpg) 
-![WITH_DARK_FOIL](./IMGs/WITH_DARK_FOIL.jpg) 
-![RASPBERRYPI_CONNECTION](./IMGs/RASPBERRYPI_CONNECTION.jpg) 
+**Main Board Schematic**  
+![BOARD_SCHEMATIC_MAIN](./IMGs/BOARD_SCHEMATIC_MAIN.png)
+
+**ULN2003 VFD Driver Schematic**  
+![BOARD_SCHEMATIC_ULN2003_VFD](./IMGs/BOARD_SCHEMATIC_ULN2003_VFD.png)
+
+**PCB – Front (without display)**  
+![NO_DISPLAY_FRONT](./IMGs/NO_DISPLAY_FRONT.jpg)
+
+**PCB – Back**  
+![BACK](./IMGs/BACK.jpg)
+
+**Display – All Segments Enabled**  
+![ALL_ENABLED](./IMGs/ALL_ENABLED.jpg)
+
+**Display – With Dark Foil**  
+![WITH_DARK_FOIL](./IMGs/WITH_DARK_FOIL.jpg)
+
+**Raspberry Pi Connection Example**  
+![RASPBERRYPI_CONNECTION](./IMGs/RASPBERRYPI_CONNECTION.jpg)
+
+**Firmware Task Diagram**  
 ![Firmware Diagram](./IMGs/FW_DIAGRAM.png)
 
 ---
