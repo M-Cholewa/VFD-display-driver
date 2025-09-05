@@ -1,18 +1,19 @@
 /*
- * Init.c
+ * vSPICommTask.c
  *
- *  Created on: Sep 3, 2025
+ *  Created on: Sep 4, 2025
  *      Author: Mateusz
  */
 
-/********************** NOTES *************************************************
- ...
- *******************************************************************************/
-/* Includes ------------------------------------------------------------------*/
-#include "Init.h"
 
-#include "HLD336WA_Dev.h"
+/********************** NOTES *************************************************
+...
+*******************************************************************************/
+/* Includes ------------------------------------------------------------------*/
 #include "SPIComm.h"
+#include "vSPICommTask.h"
+#include "FreeRTOS.h"
+#include "cmsis_os2.h"
 
 //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 //#ifdef USERLIB_USE_ENABLED // plik.c
@@ -27,16 +28,43 @@
 /* Private constants ---------------------------------------------------------*/
 
 /* Private variables ---------------------------------------------------------*/
+static osThreadId_t SPICommHandle;
+
+static const osThreadAttr_t SPIComm_attributes = {
+  .name = "SPIComm",
+  .priority = (osPriority_t) osPriorityNormal,
+  .stack_size = 128 * 4
+};
 
 /* Private function declaration ----------------------------------------------*/
+static void vSPICommTask(void *argument);
+
+/* Private functions definition ----------------------------------------------*/
+
+/**
+ * @brief Function implementing the SPIComm thread.
+ * @param argument: Not used
+ * @retval None
+ */
+/* USER CODE END Header_StartSPICommTask */
+static void vSPICommTask(void *argument)
+{
+	/* USER CODE BEGIN SPIComm */
+	/* Infinite loop */
+	for ( ;; )
+	{
+		SPIComm_ProcessingTask();
+		osDelay( 10 );
+	}
+	/* USER CODE END SPIComm */
+}
 
 /* Public functions definition -----------------------------------------------*/
-void InitApp(void)
+void vSPICommTask_Setup(void *argument)
 {
-	( void ) HLD336WADev_Init();
-	( void ) SPIComm_Init();
+	SPICommHandle = osThreadNew( vSPICommTask, NULL, &SPIComm_attributes );
 }
-/* Private functions definition ----------------------------------------------*/
+
 
 //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 //#endif /* USERLIB_USE_ENABLED */ // plik.c

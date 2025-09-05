@@ -1,13 +1,13 @@
 /*
- * Init.h
+ * vSPICommTask.h
  *
- *  Created on: Sep 3, 2025
+ *  Created on: Sep 4, 2025
  *      Author: Mateusz
  */
 
 
-#ifndef CORE_INC_INIT_H_
-#define CORE_INC_INIT_H_
+#ifndef CORE_INC_VSPICOMMTASK_H_
+#define CORE_INC_VSPICOMMTASK_H_
 
 #ifdef __cplusplus // plik.h
 extern "C" {
@@ -26,10 +26,10 @@ extern "C" {
 /* Public variables ----------------------------------------------------------*/
 
 /* Public function declaration -----------------------------------------------*/
-void InitApp(void);
+void vSPICommTask_Setup(void *argument);
 
 #ifdef __cplusplus // plik.h
 }
 #endif
 
-#endif /* CORE_INC_INIT_H_ */
+#endif /* CORE_INC_VSPICOMMTASK_H_ */

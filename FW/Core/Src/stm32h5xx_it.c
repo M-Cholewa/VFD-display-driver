@@ -159,6 +159,7 @@ void DebugMon_Handler(void)
 /* please refer to the startup file (startup_stm32h5xx.s).                    */
 /******************************************************************************/
 
+
 /**
   * @brief This function handles TIM1 Update interrupt.
   */
@@ -172,6 +173,8 @@ void TIM1_UP_IRQHandler(void)
 
   /* USER CODE END TIM1_UP_IRQn 1 */
 }
+
+
 
 /* USER CODE BEGIN 1 */
 

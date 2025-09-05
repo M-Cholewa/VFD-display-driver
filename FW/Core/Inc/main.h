@@ -58,17 +58,6 @@ void Error_Handler(void);
 
 /* Private defines -----------------------------------------------------------*/
 
-#define SWD_SWDIO_Pin GPIO_PIN_13
-#define SWD_SWDIO_GPIO_Port GPIOA
-#define SWD_SWCLK_Pin GPIO_PIN_14
-#define SWD_SWCLK_GPIO_Port GPIOA
-
-#define SWD_SWO_Pin GPIO_PIN_3
-#define SWD_SWO_GPIO_Port GPIOB
-
-#define SPI1_CS_Pin GPIO_PIN_1
-#define SPI1_CS_GPIO_Port GPIOA
-
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */

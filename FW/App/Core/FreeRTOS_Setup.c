@@ -44,6 +44,7 @@ void InitFreeRTOS(void)
 static void FreeRTOSTasksCreate(void)
 {
 	vScreenRefreshTask_Setup( NULL );
+	vSPICommTask_Setup( NULL );
 }
 
 //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
