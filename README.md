@@ -3,6 +3,10 @@
 This project provides both hardware (PCB) and firmware (FreeRTOS-based) for driving a **cheap HL-D336WA VFD display** (around $3 from China).  
 The PCB was manufactured by **JLCPCB**, and the driver allows the display to be controlled through **SPI**.
 
+
+Check out the **[Reddit r/electronics discussion here](https://www.reddit.com/r/electronics/comments/1n96cpo/my_3_vfd_vacuum_fluorescent_display_driver/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button).**
+
+
 ---
 
 **Display – All Segments Enabled**  
